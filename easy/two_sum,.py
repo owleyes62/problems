@@ -15,7 +15,7 @@ def twoSum(nums: list[int], target: int) -> list[int]:
 
         if diff in prevMap:
 
-            return print(f'parabens {diff} + {n} é igual a {numUnique}')
+            print(f'parabens {diff} + {n} é igual a {numUnique}')
         prevMap[n] = i
     else:
         print(f'numeros da lista não batem com {numUnique}')
